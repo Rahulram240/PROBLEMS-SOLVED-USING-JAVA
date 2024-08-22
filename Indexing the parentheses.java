@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Stack;
-public class Indicating_the_parentheses {
+public class Indexing_the_parentheses {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         String str = s.next();
