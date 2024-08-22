@@ -8,10 +8,9 @@ public class Square_root_using_Binary_Search {
     public static int sqr(int n){
         int r=0;
         if(n==0 || n==1){
-            return 1;
+            return n;
         }
         int s=2,l=n/2;
-       // for(int i=s;i<=l;i++){
             while (s<=l) {
                 int m=s+(l-s)/2;
                 if(m*m==n){
@@ -25,7 +24,6 @@ public class Square_root_using_Binary_Search {
                 }
                 r=m;
             }
-        //}
         return r;
     }
 }
