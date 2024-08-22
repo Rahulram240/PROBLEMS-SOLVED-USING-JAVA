@@ -18,6 +18,7 @@ public class Square_root_using_Binary_Search {
                 }
                 else if(m*m<n){
                     s=m+1;
+                    r=m;//We've to update the result because it might be the correct answer
                 }
                 else{
                     l=m-1;
