@@ -1,52 +1,24 @@
-[LeetCode Problem: Final Array State After K Multiplication Operations](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/?envType=daily-question&envId=2024-12-16)
+# Problems Solved Using Java
 
-Leetcode - Final Array State After K Multiplication Operations I
-Solved
-Easy
-Topics
-Companies
-Hint
-You are given an integer array nums, an integer k, and an integer multiplier.
+Welcome to my repository! Here, I solve various coding problems using Java. Below you'll find the links to different problems with their solutions.
 
-You need to perform k operations on nums. In each operation:
+---
 
-Find the minimum value x in nums. If there are multiple occurrences of the minimum value, select the one that appears first.
-Replace the selected minimum value x with x * multiplier.
-Return an integer array denoting the final state of nums after performing all k operations.
+## 📑 Problem Solved:
 
- 
+### [Leetcode - Missing Number](https://github.com/aakash-2605/Leetcode/tree/main/0268-missing-number)
+A classic problem where the goal is to find the missing number in a sequence of integers.
 
-Example 1:
+---
 
-Input: nums = [2,1,3,5,6], k = 5, multiplier = 2
+## 🚀 Repository Features:
+- **Java Solutions**: All solutions are written in Java.
+- **Problem Descriptions**: Clear explanations of each problem and solution approach.
+- **Contributions Welcome**: Feel free to contribute any improvements.
 
-Output: [8,4,6,5,6]
+---
 
-Explanation:
+## 🌐 Explore More:
+Check out my other repositories for more coding challenges!
 
-Operation	Result
-After operation 1	[2, 2, 3, 5, 6]
-After operation 2	[4, 2, 3, 5, 6]
-After operation 3	[4, 4, 3, 5, 6]
-After operation 4	[4, 4, 6, 5, 6]
-After operation 5	[8, 4, 6, 5, 6]
-Example 2:
-
-Input: nums = [1,2], k = 3, multiplier = 4
-
-Output: [16,8]
-
-Explanation:
-
-Operation	Result
-After operation 1	[4, 2]
-After operation 2	[4, 8]
-After operation 3	[16, 8]
- 
-
-Constraints:
-
-1 <= nums.length <= 100
-1 <= nums[i] <= 100
-1 <= k <= 10
-1 <= multiplier <= 5
+[Leetcode - Problem Link](https://github.com/aakash-2605/Leetcode/tree/main/0268-missing-number)
