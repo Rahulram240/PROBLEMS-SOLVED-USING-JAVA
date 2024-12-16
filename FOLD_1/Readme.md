@@ -1,4 +1,4 @@
-3264. Final Array State After K Multiplication Operations I
+Leetcode - Final Array State After K Multiplication Operations I
 Solved
 Easy
 Topics
