@@ -21,18 +21,13 @@ public class selection_sort {
  }   
  public static void sel_sort(int a[]){
     int n=a.length;
-    boolean sw=false;
     for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
             if(a[i]>a[j]){
                 int t=a[i];
                 a[i]=a[j];
                 a[j]=t;
-                sw=true;
             }
-        }
-        if(!sw){
-            break;
         }
     }
  }
