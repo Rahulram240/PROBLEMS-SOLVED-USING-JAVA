@@ -21,9 +21,7 @@ public class Bubble_sort {
         }   
     }
     public static void bub(int a[]){
-        boolean sw;
         for(int i=0;i<a.length-1;i++){
-            sw = false;
             for(int j=0;j<a.length-i-1;j++){//or(int j=i;j>0;j--) and in the next line(a[j]<a[j-1])
                 if(a[j]>a[j+1]){//If we change the sign to < then array will be sorted in Decending order instead of reversing it
                     int t=a[j];
@@ -31,9 +29,6 @@ public class Bubble_sort {
                     a[j+1]=t;
                     sw=true;
                 }
-            }
-            if(!sw){
-                break;
             }
         }
     }
