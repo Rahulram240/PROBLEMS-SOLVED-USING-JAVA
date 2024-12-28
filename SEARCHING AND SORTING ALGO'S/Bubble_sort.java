@@ -27,7 +27,6 @@ public class Bubble_sort {
                     int t=a[j];
                     a[j]=a[j+1];
                     a[j+1]=t;
-                    sw=true;
                 }
             }
         }
